@@ -102,14 +102,14 @@ const Contact = () => {
           <br />
           United States,
           <br />
-          3200 Velasco St. Los Angeles, Ca 90023
+          Pico Rivera, Ca 90660
           <br />
           <span>jbv3200@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[34.0224417, -118.1669736]} zoom={13}>
+          <MapContainer center={[33.98307, -118.096733]} zoom={12}>
             <TileLayer url="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[34.0224417, -118.1669736]}>
+            <Marker position={[33.98307, -118.096733]}>
               <Popup>Here's Johnny!</Popup>
             </Marker>
           </MapContainer>
